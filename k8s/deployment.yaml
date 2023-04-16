@@ -29,6 +29,7 @@ kind: Service
 metadata:
   name: postgre
 spec:
+  replicas: 2
   selector:
     app: postgre
   ports:
